@@ -1,0 +1,99 @@
+@media only screen and (max-width: 798px) and (min-width: 360px){
+  h1 {
+    font-size: 20px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  h4 {
+    font-size: 14px !important;
+  }
+  h6,
+  h5 {
+    font-size: 12px !important;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  nav {
+    width: 100%;
+    padding: 84px 0 0px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+    padding: 8px;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+  .nav-dropdown {
+    position: static;
+  }
+  .btn-xl {
+    padding: 15px;
+    font-size: 14px;
+  }
+  .fixed .brand,
+  .fixed nav {
+    display: none;
+  }
+  .navigation.devrama-slider {
+    display: none;
+  }
+  .navigation.devrama-slider {
+    display: none;
+  }
+  .brand {
+    display: none;
+  }
+  .topnav {
+    display: none;
+  }
+  .headerNavigation {
+    top: 0;
+  }
+  nav ul {
+    background: rgba(34, 84, 120, 0.527);
+    text-align: center;
+  }
+  a.btn.btn-primary.btn-xl.page-scroll {
+    margin-top: 15px;
+  }
+  p {
+    margin: 0px 0px 15px 20px;
+  }
+  h1 {
+    margin: 5px 0 0 18px;
+  }
+  .cSubscribe {
+    margin: 0px 0px 30px 20px;
+  }
+  .icon-list {
+    margin: 5px 0 0 18px;
+  }
+  .fixed{
+    display: none;
+  }
+  .example-animation {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media screen and (min-width: 799px) {
+  .nav-list {
+    display: block !important;
+  }
+  body {
+    overflow-X: hidden
+  }
+}

@@ -1,0 +1,238 @@
+h1 {
+    font-family: "Playfair Display";
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    font-size: 42px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: "Yanone Kaffeesatz";
+}
+
+body {
+    overflow-X: hidden;
+    background-color: #cccccc73;
+}
+
+body a {
+    outline: none !important;
+    font-family: "slabo";
+    font-size: 20px;
+}
+
+body a:focus {
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #225378;
+    outline: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Gamja+Flower|Playfair+Display|Slabo+27px|Yanone+Kaffeesatz");
+input {
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+section {
+  padding: 50px 0;
+}
+
+hr {
+  border-color: #225378;
+  border-width: 3px;
+  max-width: 50px;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.btn {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  border: none;
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #225378;
+  border-color: #225378;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.btn-primary:hover {
+  color: white;
+  background-color: #1c4564;
+  border-color: #1a405c;
+}
+
+.btn-primary:focus {
+  color: white;
+  background-color: #1c4564;
+  border-color: #1a405c;
+}
+
+.btn-default {
+  color: #222;
+  background-color: white;
+  border-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.bgCover {
+  background-image: url('../assets/img/s1.jpg');
+  background-attachment: fixed;
+}
+
+.bgCover h2,
+.bgCover p {
+  color: #fff;
+}
+
+.section-heading {
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+hr.light {
+  border-color: white;
+}
+
+.row-of-images {
+  width: 100%;
+  text-align: center;
+}
+
+.row-of-images img {
+  max-width: 20%;
+  margin-right: 4%;
+}
+
+.footer {
+  background: #000;
+}
+
+.footer h1 {
+  color: #fff;
+}
+
+.footer p {
+  color: #777;
+}
+
+.footer p i {
+  color: #fff;
+}
+
+.footer .icon-list span i {
+  color: #fff;
+}
+
+.icon-list span i {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  border-radius: 50%;
+  background: #777;
+  color: #fff;
+}
+
+.icon-list span i:hover {
+  color: #225378;
+  background: #fff;
+  transition: 1s all;
+}
+
+.footerBgCover {
+  background-color: #464a4c;
+  overflow: hidden;
+  padding: 20px 0 20px 0;
+}
+
+.cCopyright p {
+  color: #ffffff;
+}
+
+.cCopyright .cFaqs span:last-child:after {
+  display: none;
+}
+
+.cCopyright .cFaqs span:after {
+  content: "|";
+  color: #fff;
+}
+
+.cCopyright .cFaqs a {
+  color: #ffffff;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+.cCopyright .cFaqs a:hover {
+  color: #2581DC;
+  transition: 1s all;
+}
+
+
+.cSubscribe span input[type="submit"] {
+  background: transparent;
+  color: #000;
+  border: none;
+  position: absolute;
+  right: 75px;
+  font-size: 18px;
+} */
