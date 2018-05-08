@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <title>Consultancy demo</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/slider.css">
+
+    <style type="text/css">
+        .example-animation {
+            color: #FFF;
+            font-size: 60px;
+        }
+
+        .fixed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(68, 149, 217, 0.88);
+            padding: 0px 0px 10px;
+            animation: smoothScroll 1s forwards;
+        }
+
+        @keyframes smoothScroll {
+            0% {
+                transform: translateY(-40px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .fixed .brand {
+            top: 10px;
+        }
+
+        .fixed .nav-list {
+            margin-top: 10px;
+        }
+
+        .fixed .nav-dropdown {
+            margin-top: 12px;
+            background: #6495edbf;
+        }
+
+        .menu {
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/tether.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/jqueryslider.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/app.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--preloader start-->
+
+    <div id="ud_preloader">
+        <div id="ud_dots">
+            <p>Loading.....</p>
+            <div class="ud_dot" style=" animation-name:ud_preloader_1;"></div>
+            <div class="ud_dot" style=" animation-name:ud_preloader_2;"></div>
+            <div class="ud_dot" style=" animation-name:ud_preloader_3;"></div>
+            <div class="ud_dot" style=" animation-name:ud_preloader_4;"></div>
+        </div>
+        <div id="ud_bg_left" class="ud_pre_half"></div>
+        <div id="ud_bg_right" class="ud_pre_half"></div>
+    </div>
+
+    <!--preloader end-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="topnav" id="myTopnav">
+
+                        <div>
+                            <input type="search">
+                            <span>
+                                <button>
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>+91123456789</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-github"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-twitter"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <header class="headerNavigation menu">
+        <div class="container">
+            <div class="brand">
+                <a href="#!">
+                    <img src="./assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <div class="nav-mobile">
+                    <a id="nav-toggle" href="#!">
+                        <span></span>
+                    </a>
+                </div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#!">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!">About</a>
+                    </li>
+                    <li>
+                        <a href="#!" data-background-icon="&#xf0d7;">Services</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="#!">Web Design</a>
+                            </li>
+                            <li>
+                                <a href="#!">Web Development</a>
+                            </li>
+                            <li>
+                                <a href="#!">Graphic Design</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#!">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#!" data-background-icon="&#xf0d7;">Portfolio</a>
+                        <ul class="nav-dropdown">
+                            <li>
+                                <a href="#!">Web Design</a>
+                            </li>
+                            <li>
+                                <a href="#!">Web Development</a>
+                            </li>
+                            <li>
+                                <a href="#!">Graphic Design</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#!">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+
+    </header>
+
+
+
+
+    <div class="example-animation">
+        <div data-lazy-background="./assets/img/def.jpg">
+            <h4 data-pos="['30%', '110%', '35%', '30%']" data-duration="700" data-effect="move">
+                Are You Facing...
+            </h4>
+            <h1 data-pos="['-30%', '25%', '40%', '20%']" data-duration="700" data-effect="move">
+                Hiring Challenges?
+            </h1>
+            <h3 data-pos="['56%', '-40%', '52%', '22%']" data-duration="700" data-effect="move">
+                Connect with us for your hiring need.
+            </h3>
+            <!-- <div data-pos="['23%', '110%', '23%', '42%']" data-duration="700" data-effect="move">
+                        <img data-lazy-src="https://www.gravatar.com/avatar/fe3f1273001cb2e9ed9c9b067fcb1fd4?s=200"/>
+                    </div> -->
+        </div>
+        <div data-lazy-background="./assets/img/abc.jpg">
+            <h1 data-pos="['35%', '40%']" data-duration="1000" data-effect="fadein">
+                For Right jobs?
+            </h1>
+            <h6 data-pos="['48%', '40%']" data-duration="700" data-effect="fadein">
+                Avail best resources in market.
+            </h6>
+        </div>
+        <div data-lazy-background="./assets/img/ghi.jpg">
+            <h1 data-pos="['35%', '50%']" data-duration="1000" data-effect="fadein">
+                Contact Us
+            </h1>
+            <h5 data-pos="['48%', '40%']" data-duration="700" data-effect="fadein">
+                to explore more business opportunities.
+            </h5>
+        </div>
+    </div>
+
+    
+
+    <section id="our-mission">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <h2 class="section-heading text-center wow fadeInLeftBig" data-wow-duration="3s">Our mission</h2>
+                    <hr class="primary">
+                    <p class="text-muted wow rubberBand" data-wow-duration="3s">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, voluptas illum obcaecati veniam quis error, quibusdam,
+                        tenetur odio sequi dolorum deserunt dignissimos odit. Architecto beatae esse voluptate odio suscipit
+                        aperiam.
+                    </p>
+                    <p class="text-muted wow rubberBand" data-wow-duration="3s">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam accusantium adipisci debitis commodi itaque earum
+                        corrupti nemo, consequatur unde quos quasi quisquam in quis voluptate iste, cum ea impedit?
+                    </p>
+                    <p class="text-muted wow rubberBand" data-wow-duration="3s">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur distinctio optio asperiores quae nisi labore odit totam
+                        laborum! Et quibusdam maiores error. Alias pariatur hic consectetur. Libero nobis hic quis.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <a target="_blank" href="/about" class="btn btn-primary btn-xl page-scroll wow bounceInDown" data-wow-duration="3s">Learn more about us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bgCover" id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-center wow fadeInLeftBig" data-wow-duration="3s">What we do</h2>
+                    <hr class="light">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <p class="text-faded wow rubberBand" data-wow-duration="3s">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque aut architecto, laudantium, iste tenetur ipsum facilis vel
+                                tempora neque blanditiis laborum explicabo ipsa nihil ipsam repellendus quas libero enim
+                                provident?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-sm-8 offset-sm-2 text-center">
+                    <a target="_blank" href="/our-services" class="btn btn-default btn-xl page-scroll wow bounceInDown" data-wow-duration="3s">Learn more about our services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-center wow fadeInLeftBig" data-wow-duration="3s">Our clients</h2>
+                    <hr class="primary">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <p class="text-muted text-center wow rubberBand" data-wow-duration="3s">
+                                Every year, we serve over 70 education and youth-focused nonprofit organizations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row-of-images">
+                <img class="wow slideInLeft" data-wow-duration="3s" src="assets/img/infosys.png" />
+                <img class="wow slideInLeft" data-wow-duration="3s" src="assets/img/ibm.png" />
+                <img class="wow slideInRight" data-wow-duration="3s" src="assets/img/cisco.png" />
+                <img class="wow slideInRight" data-wow-duration="3s" src="assets/img/tech_mahindra.png" />
+            </div>
+            <div class="row-of-images">
+                <img class="wow slideInLeft" data-wow-duration="3s" src="assets/img/mindtree.png" />
+                <img class="wow slideInLeft" data-wow-duration="3s" src="assets/img/tcs.png" />
+                <img class="wow slideInRight" data-wow-duration="3s" src="assets/img/sap.png" />
+                <img class="wow slideInRight" data-wow-duration="3s" src="assets/img/wipro.png" />
+            </div>
+           
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <a target="_blank" href="/becoming-a-client" class="btn btn-primary btn-xl page-scroll wow bounceInDown" data-wow-duration="3s">Learn more about becoming a client</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h1 class="wow fadeInLeftBig" data-wow-duration="3s">newsletters</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. nostrum ipsam et recusandae ea nobis excepturi
+                        magni esse facilis architecto eaque!</p>
+                    <div class="cSubscribe">
+                            <input type="text">
+                            <span>
+                                <input type="submit" value="Go!">
+                            </span>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h1 class="wow fadeInLeftBig" data-wow-duration="3s">latest news</h1>
+                    <p>please waits...</p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h1 class="wow fadeInLeftBig" data-wow-duration="3s">Contact us</h1>
+                    <p>
+                        <i class="fa fa-map-marker"></i> address:
+                        <span>abc, def, 80/90
+                            <br> xyz, pin-09090</span>
+                    </p>
+                    <p>
+                        <i class="fa fa-phone"></i> phone:
+                        <span>+910987543224</span>
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope"></i> email:
+                        <span>xyz@gfd.com</span>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h1 class="wow fadeInLeftBig" data-wow-duration="3s">follow us</h1>
+                    <div class="icon-list">
+                        <span class="wow zoomIn" data-wow-duration="3s">
+                            <i class="fa fa-facebook"></i>
+                        </span>
+                        <span class="wow zoomIn" data-wow-duration="3s">
+                            <i class="fa fa-twitter"></i>
+                        </span>
+                        <span class="wow zoomIn" data-wow-duration="3s">
+                            <i class="fa fa-github"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footerBgCover">
+        <div class="container cCopyright text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <p class="wow rotateInUpLeft" data-wow-duration="3s">@copyrights 2018. all rights reserved.</p>
+                </div>
+                <div class="col-md-6 col-sm-12 cFaqs">
+                    <span>
+                        <a class="wow jackInTheBox" data-wow-duration="3s" href="">faq's</a>
+                    </span>
+                    <span>
+                        <a class="wow jackInTheBox" data-wow-duration="3s" href="">sitemap</a>
+                    </span>
+                    <span>
+                        <a class="wow jackInTheBox" data-wow-duration="3s" href="">contact</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
